@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/custom.js"></script>
+    <script src="./js/typed.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFO<span>LIO</span></div>
+            <div class="menu">
+                <a href="#">HOME</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <div class="text">
+            <p>Hello, I am </p>
+            <h1>Ayush Singh</h1>
+            <p>And I am a <span id="ani" style="color: #e74c3c;">Front End Developer</span></p>
+            <button class="c-btn">Hire Me</button>
+        </div>
+
+    </header>
+    <section id="about">
+        <div class="section-info">
+            <h1>About</h1>
+            <p>Who i am?</p>
+        </div>
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="./img/about.jpg" alt="">
+            </div>
+            <div class="about-right-col">
+                <p id="p-title">Hello, I am a <span id="ani2" style="color: #e74c3c;"></span></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem asperiores iste repellendus delectus a non similique, natus veniam magnam, quam, ut nihil. Eum impedit officiis, tempora ad quas nam. Reiciendis! Lorem ipsum dolor sit
+                    amet consectetur, adipisicing elit. Recusandae distinctio et voluptate ab enim voluptas commodi nihil, numquam provident minus, quisquam nulla rem illo deserunt, non quos tempore ad reiciendis.</p>
+                <button class="c-btn">Download CV</button>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-info">
+            <h1 style="color: white;">Skill's</h1>
+            <p>Who i am?</p>
+        </div>
+        <div class="skills-row">
+            <div class="skills-left-col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis placeat sed veniam praesentium neque magnam vero facilis velit voluptatibus reiciendis consequuntur, molestias quas asperiores dolor! Accusantium harum quaerat doloribus perferendis
+                    sed debitis, et veritatis minima dignissimos minus ipsa totam blanditiis dicta ratione amet reiciendis! Ratione error sed assumenda sequi minus.</p>
+                <button class="c-btn">Read more</button>
+            </div>
+
+            <div class="skills-right-col">
+                <div class="progress-div">
+                    <p>
+                        <span>HTML</span>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>SCC</span>
+                        <progress value="70" max="100"></progress>
+                        <span>70%</span>
+                    </p>
+                    <p>
+                        <span>C/C++</span>
+                        <progress value="85" max="100"></progress>
+                        <span>85%</span>
+                    </p>
+                    <p>
+                        <span>JAVA</span>
+                        <progress value="60" max="100"></progress>
+                        <span>60%</span>
+                    </p>
+                    <p>
+                        <span>EXEL</span>
+                        <progress value="70" max="100"></progress>
+                        <span>70%</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="section-info">
+            <h1>Services</h1>
+            <p>What I can Do</p>
+        </div>
+
+        <div class="services-row">
+            <div class="services-box" data-tilt>
+                <img src="./img/b2.png" alt="bg">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis maxime assumenda voluptatem dolores molestias eligendi doloribus iusto rerum modi! Distinctio!</p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="./img/b2.png" alt="bg">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis maxime assumenda voluptatem dolores molestias eligendi doloribus iusto rerum modi! Distinctio!</p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="./img/b2.png" alt="bg">
+                <h2>App development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis maxime assumenda voluptatem dolores molestias eligendi doloribus iusto rerum modi! Distinctio!</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section-info" style="color:white">
+            <h1>Get in Touch</h1>
+            <p style="color:black;">I am Available</p>
+            <div class="contact-row">
+                <div class="contact-left-col">
+                    <img src="./img/b3.png" alt="">
+                </div>
+                <div class="contact-right-col">
+                    <form>
+                        <h2>Connect with me</h2>
+                        <input type="text" name="" placeholder="Name" id="">
+                        <input type="email" name="" placeholder="E-Mail" id=""><br>
+                        <textarea cols="40" rows="10" placeholder="Message"></textarea><br>
+                        <br>
+                        <button class="c-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h2>Develop By : <br>Ayush</h2>
+        <img src="./img/icon.png" alt="" width="100">
+    </section>
+    <script src="./js/jquery.ripples.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+            $('header').ripples({
+                dropRadius: 40,
+                perturbance: 0.01,
+            });
+        });
+    </script>
+    <script>
+        let animate = new Typed('#ani', {
+            strings: ["Front End Developer", "UI/UX Designer", "Blogger", "Android Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        })
+    </script>
+    <script>
+        let animat = new Typed('#ani2', {
+            strings: ["Front End Developer", "UI/UX Designer", "Blogger", "Android Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        })
+    </script>
+    <script src="./js/tilt.jquery.min.js"></script>
+</body>
+
+</html>
