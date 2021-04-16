@@ -260,6 +260,15 @@ progress {
         background-size: cover;
         background-attachment: fixed;
     }
+    #sidenav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100vh;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    #sidenav a {}
     .menu a {
         display: none;
     }
